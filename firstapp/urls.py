@@ -3,4 +3,5 @@ from django.urls import path
 # Create your views here.
 urlpatterns = [
     path('check/', views.check),
+    path('login/', views.login),
 ]
